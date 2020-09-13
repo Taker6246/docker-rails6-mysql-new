@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+Docker + Rails6 + MySQL8 構成です。
 * ...
+１．db:createして、
+ docker-compose run web rake db:create
+２．立ち上げれば使えます
+ docker-compose up -d
+ 
